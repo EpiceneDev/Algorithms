@@ -3,18 +3,25 @@
 import math
 
 def recipe_batches(recipe, ingredients):
-  # create the dictionaries
-  recipe = {name, ingredient, amount}
-  ingredients = { 
-    'eggs': 5,
-    'butter': 10,
-    'sugar': 8,
-    'flour': 15}
+  # not sure what this is for
+  minimum_in = 0
 
-def recipe(self, name, ingredients):
-  init_self(
-    
-  )
+  # set as comparable value
+  max_batches = 100000000
+
+  available_ingredients = None
+
+  recipe_values = []
+  recipe_values = [recipe.values()]
+
+  #if recipe ingredients is > ingredients, 0 batches avail
+  if len(recipe) > len(ingredients):
+    max_batches = 0
+
+  # or else, going through the recipe, if the recipe_ingredient is > the 
+  # ingredient avail in the ingredient dictionary, 
+  # divide the ingredient amount into the avail amount and round down. 
+  # the smallest number from the recipe ingredient list returned, is the batch available.
 
 
 if __name__ == '__main__':
