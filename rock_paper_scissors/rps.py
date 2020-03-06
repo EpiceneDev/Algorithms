@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+# similar to cookie problem
 import sys
 
 def rock_paper_scissors(n):

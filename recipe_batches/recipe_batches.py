@@ -3,7 +3,18 @@
 import math
 
 def recipe_batches(recipe, ingredients):
-  pass 
+  # create the dictionaries
+  recipe = {name, ingredient, amount}
+  ingredients = { 
+    'eggs': 5,
+    'butter': 10,
+    'sugar': 8,
+    'flour': 15}
+
+def recipe(self, name, ingredients):
+  init_self(
+    
+  )
 
 
 if __name__ == '__main__':
