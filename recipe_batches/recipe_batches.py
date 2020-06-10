@@ -3,7 +3,10 @@
 import math
 
 def recipe_batches(recipe, ingredients):
-  # not sure what this is for
+  # for each  recipe's ingredients, 
+  # check to see if ingredients are listed in the "ingredients" dict
+  # if the the ingredient is there, divide the amount from  
+  # not sure what this is for yet
   minimum_in = 0
 
   # set as comparable value
